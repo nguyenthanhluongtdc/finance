@@ -1,0 +1,50 @@
+[
+    {
+        "img_src": "home-credit.png",
+        "name": "Home Credit",
+        "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
+        "max": "20 triệu đồng",
+        "age": "18 đến 60",
+        "link": "#"
+    },
+    {
+        "img_src": "tin-vay.png",
+        "name": "Tin vay",
+        "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
+        "max": "20 triệu đồng",
+        "age": "18 đến 60",
+        "link": "#"
+    },
+    {
+        "img_src": "jeff.jpg",
+        "name": "JEFF",
+        "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
+        "max": "20 triệu đồng",
+        "age": "18 đến 60",
+        "link": "#"
+    },
+    {
+        "img_src": "dong247.jpg",
+        "name": "Đồng 247",
+        "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
+        "max": "20 triệu đồng",
+        "age": "18 đến 60",
+        "link": "#"
+    },
+    {
+        "img_src": "vaymini.jpg",
+        "name": "VayMini",
+        "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
+        "max": "20 triệu đồng",
+        "age": "18 đến 60",
+        "link": "#"
+    },
+    {
+        "img_src": "oncredit.jpg",
+        "name": "OnCredit",
+        "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
+        "max": "20 triệu đồng",
+        "age": "18 đến 60",
+        "link": "#"
+    }
+]

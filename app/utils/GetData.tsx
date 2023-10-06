@@ -1,0 +1,16 @@
+import path from 'path';
+import { promises as fs } from 'fs';
+
+export default async function GetData () {
+    //Find the absolute path of the json directory
+    const jsonDirectory = path.join(process.cwd(), 'app/json');
+   
+    //Read the json data file data.json
+    const fileContents = await fs.readFile(jsonDirectory + '/data.json', 'utf8');
+   
+    //Return the content of the data file in json format
+    const objectData = JSON.parse(fileContents);
+    return {
+        props: objectData
+    }
+}
