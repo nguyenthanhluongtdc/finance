@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import getData from './utils/GetData'
 import Header from './components/Header';
 import Container from '@mui/material/Container'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
