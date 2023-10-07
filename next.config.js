@@ -12,7 +12,7 @@ else if (env == "production"){
 }
 
 const nextConfig = {
-    // output: 'export',
+    output: 'export',
     env: {
         pathImage: pathImage
     }
