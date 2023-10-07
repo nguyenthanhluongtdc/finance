@@ -2,10 +2,8 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-    trailingSlash: true,
-    output: 'export',
     images: {
-        domains: ['nguyenthanhluongtdc.github.io/finance']
+        domains: ['nguyenthanhluongtdc.github.io']
     }
 }
  module.exports = nextConfig
