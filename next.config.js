@@ -5,14 +5,14 @@
 const env = process.env.NODE_ENV
 if(env == "development"){
    const pathImage = "/images/";
-   const nextConfig = {
-    env: {
-        pathImage: pathImage
+    const nextConfig = {
+        env: {
+            pathImage: pathImage
+        }
     }
+    module.exports = nextConfig
 }
- module.exports = nextConfig
-}
-else if (env == "production"){
+else{
     const pathImage = "./images/";
     const nextConfig = {
         output: 'export',
@@ -20,6 +20,6 @@ else if (env == "production"){
             pathImage: pathImage
         }
     }
-     module.exports = nextConfig
+    module.exports = nextConfig
 }
 
