@@ -5,7 +5,7 @@ const nextConfig = {
     trailingSlash: true,
     output: 'export',
     images: {
-        domains: ['https://nguyenthanhluongtdc.github.io/finance']
+        domains: ['nguyenthanhluongtdc.github.io/finance']
     }
 }
  module.exports = nextConfig
