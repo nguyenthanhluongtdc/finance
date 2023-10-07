@@ -4,6 +4,8 @@
 const nextConfig = {
     trailingSlash: true,
     output: 'export',
-    images: { domains: ['https://nguyenthanhluongtdc.github.io'], formats: ['image/avif', 'image/webp'], }
+    images: {
+        domains: ['https://nguyenthanhluongtdc.github.io/finance']
+    }
 }
  module.exports = nextConfig
