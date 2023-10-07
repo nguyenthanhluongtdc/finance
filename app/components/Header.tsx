@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <AppBar position="static">
          <Container>
-          <Toolbar className='px-0'>
+          <Toolbar className='px-0' sx={{minHeight:'auto'}}>
             <Typography
               variant="h6"
               noWrap
@@ -30,7 +30,7 @@ export default function Header() {
               <Image alt='Logo' sizes="100vw" width={0} height={0} style={{width:'auto', height:'100%', display:'block'}} src={process.env.pathImage+'logo.jpg'} />
 
             </Typography>
-              <Typography variant="h5" color="inherit" component="div">
+              <Typography variant="h5" color="inherit" component="div" sx={{fontSize: {xs:'1.3rem', sm:'1.5rem'}}}>
                   Vaytieudung247.com
               </Typography>
           </Toolbar>

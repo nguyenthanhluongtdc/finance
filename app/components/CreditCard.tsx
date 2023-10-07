@@ -40,8 +40,8 @@ export default function CreditCard({finance}:{finance: any}) {
         </Typography>
       </CardContent>
       <CardActions sx={{justifyContent:'space-between'}}>
-        <Button title='Vay ngay' size="small" variant='contained' onClick={()=>{window.location.href = finance.link }} > Vay ngay </Button>
-        <Button title='Chi tiết' size="small" variant='outlined'> Chi tiết </Button>
+        <Button title='Vay ngay' size="medium" variant='contained' onClick={()=>{window.location.href = finance.link }} > Vay ngay </Button>
+        {/* <Button title='Chi tiết' size="medium" variant='outlined'> Chi tiết </Button> */}
       </CardActions>
     </Card>
   );

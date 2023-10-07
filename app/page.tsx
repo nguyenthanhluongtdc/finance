@@ -2,7 +2,8 @@ import  GetData from './utils/GetData';
 import CreditCard from './components/CreditCard'
 import { Grid } from '@mui/material';
 import Typography from '@mui/material/Typography';
-import banner from '../public/images/banner.jpg'
+import banner from '../public/images/banner.jpg';
+import EndContent from './components/RootPage/EndContent';
 
 export default async function Home() {
   let data = (await GetData()).props
@@ -34,6 +35,7 @@ export default async function Home() {
         </Grid>
       </Typography>
     </Typography>
+    <EndContent />
    </div>
   )
 }

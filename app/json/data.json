@@ -1,13 +1,5 @@
 [
     {
-        "img_src": "home-credit.png",
-        "name": "Home Credit",
-        "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
-        "max": "20 triệu đồng",
-        "age": "18 đến 60",
-        "link": "https://shorten.asia/tK4tgNB2"
-    },
-    {
         "img_src": "tin-vay.png",
         "name": "Tin vay",
         "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
@@ -16,12 +8,12 @@
         "link": "https://shorten.asia/YfHfqup1"
     },
     {
-        "img_src": "jeff.jpg",
-        "name": "JEFF",
+        "img_src": "oncredit.jpg",
+        "name": "OnCredit",
         "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
         "max": "20 triệu đồng",
         "age": "18 đến 60",
-        "link": "https://shorten.asia/kMc7KAgN"
+        "link": "https://shorten.asia/6Rasy8xj"
     },
     {
         "img_src": "dong247.jpg",
@@ -32,6 +24,14 @@
         "link": "https://shorten.asia/jQaJxA25"
     },
     {
+        "img_src": "jeff.jpg",
+        "name": "JEFF",
+        "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
+        "max": "20 triệu đồng",
+        "age": "18 đến 60",
+        "link": "https://shorten.asia/kMc7KAgN"
+    },
+    {
         "img_src": "vaymini.jpg",
         "name": "VayMini",
         "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
@@ -40,11 +40,11 @@
         "link": "https://shorten.asia/yC6mdruZ"
     },
     {
-        "img_src": "oncredit.jpg",
-        "name": "OnCredit",
+        "img_src": "home-credit.png",
+        "name": "Home Credit",
         "new_member" : "Lãi xuất 0% vay tối đa 10 triệu đồng",
         "max": "20 triệu đồng",
         "age": "18 đến 60",
-        "link": "https://shorten.asia/6Rasy8xj"
+        "link": "https://shorten.asia/tK4tgNB2"
     }
 ]
