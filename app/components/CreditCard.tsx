@@ -17,7 +17,9 @@ export default function CreditCard({finance}:{finance: any}) {
         title={finance.name}
       >
         <Link className='m-auto' href={finance.link}>
-        <Image alt={finance.name} sizes="100vw" width={0} height={0} style={{width:'100%', height:'auto', maxHeight: '140px'}} src={'/images/'+finance.img_src} />
+          <Typography sx={{padding: {xs:'10px', md:'20px'}}}>
+            <Image alt={finance.name} sizes="100vw" width={0} height={0} style={{width:'100%', height:'auto', maxHeight: '140px', zoom:'5'}} src={'/images/'+finance.img_src} />
+          </Typography>
         </Link>
       </CardMedia>
       <CardContent>

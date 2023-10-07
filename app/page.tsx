@@ -23,7 +23,7 @@ export default async function Home() {
     
     <Typography component="div" sx={{backgroundColor:'#3cc4ff'}}>
       <Typography component="div" sx={{background:`url(${banner.src}) top no-repeat `, backgroundSize:'contain'}}>
-        <Grid container className='justify-between' sx={{paddingTop: {xs: '30px', md:'150px'}, paddingLeft: {xs: '2px', md:'25px'}, paddingRight: {xs: '2px', md:'25px'}}}>
+        <Grid container className='justify-between' sx={{paddingTop: {xs: '60px', md:'150px'}, paddingLeft: {xs: '2px', md:'25px'}, paddingRight: {xs: '2px', md:'25px'}}}>
           {
             data.map( (item: any) => 
               <Grid xs={12} sm={6} md={4} className='px-3'>
