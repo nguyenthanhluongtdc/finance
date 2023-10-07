@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 export default function CreditCard({finance}:{finance: any}) {
   return (
-    <Card className='mx-auto my-4 sm:my-7 p-2 md:p-3 ' sx={{ maxWidth: 345 }}>
+    <Card className='mx-auto my-4 sm:my-7 p-2 md:p-3' sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 140, display: 'flex' }}
         title={finance.name}
@@ -28,15 +28,23 @@ export default function CreditCard({finance}:{finance: any}) {
         </Link>
         <Typography variant="body2" color="text.primary" className='mb-3 flex'> 
           <b>Khoản vay đầu:</b> 
-          <span style={{textAlign:'right', marginLeft:'auto', flex:'1'}} > {finance.new_member} </span> 
+          <span style={{textAlign:'right', marginLeft:'auto', flex:'1', whiteSpace:'nowrap'}} > {finance.new_member==""?"Không hỗ trợ lãi xuất 0%":finance.new_member} </span> 
         </Typography>
         <Typography variant="body2" color="text.primary" className='mb-3 flex'> 
-          <b> Vay tối đa: </b> 
-          <span style={{textAlign:'right', marginLeft:'auto', flex:'1'}} > {finance.max}  </span>
+          <b> Khoản vay: </b> 
+          <span style={{textAlign:'right', marginLeft:'auto', flex:'1', whiteSpace:'nowrap'}} > {finance.max}  </span>
+        </Typography>
+        <Typography variant="body2" color="text.primary" className='mb-3 flex'> 
+          <b> Kỳ hạn: </b> 
+          <span style={{textAlign:'right', marginLeft:'auto', flex:'1', whiteSpace:'nowrap'}} > {finance.duration}  </span>
+        </Typography>
+        <Typography variant="body2" color="text.primary" className='mb-3 flex'> 
+          <b>Thủ tục: </b> 
+          <span style={{textAlign:'right', marginLeft:'auto', flex:'1', whiteSpace:'nowrap'}} > {finance.process}  </span>
         </Typography>
         <Typography variant="body2" color="text.primary" className='mb-3 flex'> 
           <b> Độ tuổi: </b> 
-          <span style={{textAlign:'right', marginLeft:'auto', flex:'1'}} > {finance.age} </span>
+          <span style={{textAlign:'right', marginLeft:'auto', flex:'1', whiteSpace:'nowrap'}} > {finance.age} </span>
         </Typography>
       </CardContent>
       <CardActions sx={{justifyContent:'space-between'}}>
