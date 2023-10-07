@@ -11,7 +11,12 @@ import Link from 'next/link';
 
 export default function CreditCard({finance}:{finance: any}) {
   return (
-    <Card className='mx-auto my-4 sm:my-7 p-2 md:p-3' sx={{ maxWidth: 345 }}>
+    <Card className='effect-transform-hover mx-auto my-4 sm:my-7 p-2 md:p-3' sx={{ maxWidth: 345, boxShadow: 5, overflow:'initial', position:'relative' }}>
+      <Typography component="div" className='panel-label'>
+        <Typography component="span" sx={{display:'inline-block', padding:'0px 10px', fontSize:'1em'}}>
+          #{finance.id}
+        </Typography>
+      </Typography>
       <CardMedia
         sx={{ height: 140, display: 'flex' }}
         title={finance.name}
@@ -24,7 +29,7 @@ export default function CreditCard({finance}:{finance: any}) {
       </CardMedia>
       <CardContent>
         <Link className='m-auto no-underline' href={finance.link}>
-          <Typography gutterBottom variant="h5" component="h4"> {finance.name} </Typography>
+          <Typography sx={{color: '#000080', fontWeight: 'bold'}} gutterBottom variant="h5" component="h4"> {finance.name} </Typography>
         </Link>
         <Typography variant="body2" color="text.primary" className='mb-3 flex'> 
           <b>Khoản vay đầu:</b> 
@@ -48,7 +53,7 @@ export default function CreditCard({finance}:{finance: any}) {
         </Typography>
       </CardContent>
       <CardActions sx={{justifyContent:'space-between'}}>
-        <Button title='Vay ngay' size="medium" variant='contained' onClick={()=>{window.location.href = finance.link }} > Vay ngay </Button>
+        <Button sx={{width: '100%', fontWeight:'bold'}} title='Vay ngay' size="large" variant='contained' onClick={()=>{window.location.href = finance.link }} > Vay ngay </Button>
         {/* <Button title='Chi tiết' size="medium" variant='outlined'> Chi tiết </Button> */}
       </CardActions>
     </Card>
