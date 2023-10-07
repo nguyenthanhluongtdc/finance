@@ -27,7 +27,7 @@ export default function Header() {
                 textDecoration: 'none',
               }}
             >
-              <Image alt='Logo' sizes="100vw" width={0} height={0} style={{width:'auto', height:'100%', display:'block'}} src={'/images/logo.jpg'} />
+              <Image alt='Logo' sizes="100vw" width={0} height={0} style={{width:'auto', height:'100%', display:'block'}} src={'./images/logo.jpg'} />
 
             </Typography>
               <Typography variant="h5" color="inherit" component="div">
